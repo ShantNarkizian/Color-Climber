@@ -26,7 +26,6 @@ var gs = gameState.Main_Menu
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
 
-    
     let ball = SKShapeNode(circleOfRadius: 40)
     let score_label = SKLabelNode(fontNamed: "TArial-BoldMT")
     let start_label = SKLabelNode(fontNamed: "TArial-BoldMT")
