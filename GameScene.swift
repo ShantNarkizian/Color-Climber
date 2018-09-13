@@ -457,7 +457,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.run(sequence)
         
     }
-    
+     
     func nextScene(){
         let GG = GameOver(fileNamed: "GameOver")
         GG?.scaleMode = .aspectFill
