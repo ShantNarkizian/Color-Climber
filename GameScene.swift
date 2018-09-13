@@ -77,7 +77,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     //move to view
     override func didMove(to view: SKView) {
         
-        authenticateLocalPlayer()
+       authenticateLocalPlayer()
         
        NotificationCenter.default.post(name: Notification.Name(rawValue: "PlayBackgroundSound"), object: self, userInfo:dictToSend) //posts the notification
 
